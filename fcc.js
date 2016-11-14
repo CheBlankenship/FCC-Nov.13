@@ -1,9 +1,10 @@
-function reverseString(str) {
-  var arr = [];
-  var spt = str.split("");
-  console.log(spt);
-  
-
+function reverseStr(str){
+  var a = str.split("");
+  console.log(a);
+  var re = a.reverse();
+  console.log(re);
+  var concat= re.join("");
+  console.log(concat);
 }
 
-reverseString("hello");
+reverseStr("hello");
