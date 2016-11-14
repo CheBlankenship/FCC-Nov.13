@@ -1,8 +1,9 @@
 function factorialize(num) {
+  var sum = 1;
   for(var i= 1; i<=num; i++) {
-    console.log(i);
+    sum *= i;
   }
-  return ;
+  return sum;
 }
 
 console.log(factorialize(5));
